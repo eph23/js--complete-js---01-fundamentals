@@ -1,9 +1,11 @@
 "use strict";
 
+// Helper Function
 const cutFruitPieces = function (fruit) {
     return fruit * 4;
 };
 
+// Main Function
 function fruitProcessor(apples, oranges) {
     const applePieces = cutFruitPieces(apples);
     const orangePieces = cutFruitPieces(oranges);
